@@ -155,8 +155,9 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0;
-  filter: alpha(opacity=0);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  filter: blur(2px);
 }
 .page-nav {
 	width: 50%;
