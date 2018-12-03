@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eric Zhang</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://ericzhn.github.io/blog/"/>
+  <updated>2018-11-30T08:33:38.216Z</updated>
+  <id>https://ericzhn.github.io/blog/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://ericzhn.github.io/blog/2018/11/30/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://ericzhn.github.io/blog/2018/11/30/测试/</id>
+    <published>2018-11-30T08:19:05.000Z</published>
+    <updated>2018-11-30T08:33:38.216Z</updated>
+    
+    <content type="html"><![CDATA[<p>12312<br>312<br>312<br>3<br>12<br>3<br>12<br>3<br>123<br>12<br>3<br>12<br>3<br>21<br>3<br>213<br>12<br>3<br>12<br>3<br>12<br>312<br>3</p><p>12<br>312<br>3<br>12<br>3<br>12<br>312<br>3<br>12<br>3<br>21<br>21<br>3<br>12<br>31<br>2</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;12312&lt;br&gt;312&lt;br&gt;312&lt;br&gt;3&lt;br&gt;12&lt;br&gt;3&lt;br&gt;12&lt;br&gt;3&lt;br&gt;123&lt;br&gt;12&lt;br&gt;3&lt;br&gt;12&lt;br&gt;3&lt;br&gt;21&lt;br&gt;3&lt;br&gt;213&lt;br&gt;12&lt;br&gt;3&lt;br&gt;12&lt;br&gt;3&lt;br&gt;12&lt;br&gt;312&lt;br&gt;3&lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>程序员应该了解的网络知识(基础)</title>
+    <link href="https://ericzhn.github.io/blog/2018/11/22/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BA%94%E8%AF%A5%E4%BA%86%E8%A7%A3%E7%9A%84%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86(%E5%9F%BA%E7%A1%80)/"/>
+    <id>https://ericzhn.github.io/blog/2018/11/22/程序员应该了解的网络知识(基础)/</id>
+    <published>2018-11-22T05:35:12.000Z</published>
+    <updated>2018-11-30T08:16:57.415Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文出自 “JointForce” 博客，请务必保留此出处 <a href="https://baijiahao.baidu.com/s?id=1587182007574097128&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">https://baijiahao.baidu.com/s?id=1587182007574097128&amp;wfr=spider&amp;for=pc</a></p><p>前言</p><p>作为一名程序员, 不可能不与网络打交道. 现在我们的手机, 电脑, 不夸张地说, 离开了网络就是一块’废铁’, 它们的作用将大打折扣.. 本文的作用呢，主要是针对不是非网络专业开发的人员准备的, 以’最短的时间, 了解计网最多的知识’为前提起笔.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">概述</span><br></pre></td></tr></table></figure><p>先来了解下各种我们知道, 但是不太了解的专业名词的意思</p><h1 id="因特网"><a href="#因特网" class="headerlink" title="因特网"></a>因特网</h1><p><img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1695827415,1533482018&amp;fm=173&amp;s=B5209019554667510E77D4540300E0B2&amp;w=640&amp;h=431&amp;img.JPEG" alt="Image text"><br>因特网</p><p>因特网是当今世界上最大的网络, 是”网络的网络”. 即因特网是所有网络互连起来的一个巨型网络.</p><h2 id="因特网的组成"><a href="#因特网的组成" class="headerlink" title="因特网的组成 :"></a>因特网的组成 :</h2><h3 id="边缘部分-主机"><a href="#边缘部分-主机" class="headerlink" title="边缘部分 : 主机"></a>边缘部分 : 主机</h3><h3 id="核心部分-大量网络和连接这些网络的路由器-此路由器不是我们家用的路由器"><a href="#核心部分-大量网络和连接这些网络的路由器-此路由器不是我们家用的路由器" class="headerlink" title="核心部分 : 大量网络和连接这些网络的路由器(此路由器不是我们家用的路由器)"></a>核心部分 : 大量网络和连接这些网络的路由器(此路由器不是我们家用的路由器)</h3><h2 id="以太网"><a href="#以太网" class="headerlink" title="以太网"></a>以太网</h2><h5 id="以太网是现在最常用的局域网通信协议-以太网上传输的是MAC帧-由于以太网同一时间只允许一台计算机发送数据-所以必须有一套检测机制-那就是CSMA-CD协议"><a href="#以太网是现在最常用的局域网通信协议-以太网上传输的是MAC帧-由于以太网同一时间只允许一台计算机发送数据-所以必须有一套检测机制-那就是CSMA-CD协议" class="headerlink" title="以太网是现在最常用的局域网通信协议, 以太网上传输的是MAC帧. 由于以太网同一时间只允许一台计算机发送数据, 所以必须有一套检测机制, 那就是CSMA/CD协议 :"></a>以太网是现在最常用的局域网通信协议, 以太网上传输的是MAC帧. 由于以太网同一时间只允许一台计算机发送数据, 所以必须有一套检测机制, 那就是CSMA/CD协议 :</h5><h6 id="多点接入-多台计算机以多点接入的方式连接在一根总线上"><a href="#多点接入-多台计算机以多点接入的方式连接在一根总线上" class="headerlink" title="多点接入 : 多台计算机以多点接入的方式连接在一根总线上"></a>多点接入 : 多台计算机以多点接入的方式连接在一根总线上</h6><h6 id="载波监听-不管是否正在发送-每个站都必须不停地检测信道"><a href="#载波监听-不管是否正在发送-每个站都必须不停地检测信道" class="headerlink" title="载波监听 : 不管是否正在发送, 每个站都必须不停地检测信道"></a>载波监听 : 不管是否正在发送, 每个站都必须不停地检测信道</h6><h6 id="碰撞检测-边发送边监听"><a href="#碰撞检测-边发送边监听" class="headerlink" title="碰撞检测 : 边发送边监听"></a>碰撞检测 : 边发送边监听</h6><h1 id="OSI"><a href="#OSI" class="headerlink" title="OSI"></a>OSI</h1><p>开放系统互连基本参考模型, 只要遵守这个OSI标准, 任何两个系统都能进行通信. OSI是七层协议体系结构, 而TCP/IP是一个四层协议体系结构, 于是我们采取折中的方法, 学习计算机网络原理的时候往往用的是五层协议的体系结构 : 物理层, 数据链路层, 网络层, 传输层和应用层</p><p><img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=933241082,813009402&amp;fm=173&amp;s=80984D30595778CA5EF781C2030060B3&amp;w=583&amp;h=376&amp;img.JPEG" alt="Image text"><br>协议体系结构</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">物理层</span><br></pre></td></tr></table></figure><p>计算机的世界里只有0和1, 正如你现在所看这篇文章的文字, 存储在计算机中也是一大串0和1的组合. 但是这些数字不能在真实的物理介质中传输的, 而需要把它转换为光信号或者电信号, 所以这一层负责将这些比特流(0101)与光电信号进行转换.</p><p>如果没有物理层, 那么也就不存在互联网, 不存在数据的共享, 因为数据无法在网络中流动.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">数据链路层</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本文出自 “JointForce” 博客，请务必保留此出处 &lt;a href=&quot;https://baijiahao.baidu.com/s?id=1587182007574097128&amp;amp;wfr=spider&amp;amp;for=pc&quot; target=&quot;_blank&quot; re
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ericzhn.github.io/blog/2018/11/22/hello-world/"/>
+    <id>https://ericzhn.github.io/blog/2018/11/22/hello-world/</id>
+    <published>2018-11-22T02:51:35.040Z</published>
+    <updated>2018-11-22T02:51:35.040Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
